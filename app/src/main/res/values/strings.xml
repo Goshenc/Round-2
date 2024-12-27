@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">B站仿界面</string>
+    <string name="up_image">up 主头像</string>
+    <string name="dynamic_image">动态图片</string>
+</resources>
