@@ -1,4 +1,7 @@
-package com.example.bili
+package com.example.bili.data
+
+import com.example.bili.R
+import com.example.bili.model.Up
 
 object DataSender {
     fun createData(): List<Up> {

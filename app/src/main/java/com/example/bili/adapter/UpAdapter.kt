@@ -1,8 +1,9 @@
-package com.example.bili
+package com.example.bili.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.bili.model.Up
 import com.example.bili.databinding.ItemUpBinding
 
 class UpAdapter(

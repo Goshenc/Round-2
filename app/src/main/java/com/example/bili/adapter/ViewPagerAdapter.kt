@@ -1,8 +1,9 @@
-package com.example.bili
+package com.example.bili.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.bili.model.Up
 import com.example.bili.databinding.ItemDynamicBinding
 
 class ViewPager2Adapter(private val upList: List<Up>) : RecyclerView.Adapter<ViewPager2Adapter.ViewHolder>() {
@@ -22,3 +23,4 @@ class ViewPager2Adapter(private val upList: List<Up>) : RecyclerView.Adapter<Vie
 
     override fun getItemCount() = upList.size
 }
+
